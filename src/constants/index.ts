@@ -1,0 +1,5 @@
+export const FIRST_UPDATE = 'FIRST_UPDATE'
+export const SECOND_UPDATE = 'SECOND_UPDATE'
+export const THIRD_UPDATE = 'THIRD_UPDATE'
+export const FORTH_UPDATE = 'FORTH_UPDATE'
+export const FIFTH_UPDATE = 'FIFTH_UPDATE'

@@ -1,0 +1,4 @@
+.commonButton{
+    display: flex;
+    flex-direction: row;
+}
