@@ -66,7 +66,7 @@ const CondidateDetail:React.FC=()=>{
                </TableRow>
                <TableRow>
                    <TableCell colSpan={2}>
-                       <CommonButton title="Submit" color="primary" onClick={submitButton}/>
+                       <CommonButton data-testid="condidateDetailSubmit" title="Submit" color="primary" onClick={submitButton}/>
                    </TableCell>
                </TableRow>
            </Table>

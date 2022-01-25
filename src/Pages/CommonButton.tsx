@@ -9,7 +9,7 @@ interface Prop{
 const CommonButton:React.FC<Prop>=(prop:any)=>{
     return(
       <div>
-        <Button variant="contained" color={prop.color} onClick={prop.onClick}>{prop.title}</Button>
+        <Button data-testid="commonButton" variant="contained" color={prop.color} onClick={prop.onClick}>{prop.title}</Button>
       </div>
     );
 }
